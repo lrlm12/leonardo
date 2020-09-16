@@ -1,0 +1,8 @@
+hora =6
+minutos =4
+segundos =8
+
+nsegundos= segundos +1
+
+print('es',hora,'h',minutos,'min',nsegundos,'s')
+
