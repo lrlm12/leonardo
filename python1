@@ -1,0 +1,19 @@
+a =float(input('ingrese el valor de (a): '))
+b =float(input('ingrese el valor de (b): '))
+c =float(input('ingrese el valor de (c): '))
+
+disc=((b**2)-(4*a*c))
+raiz=(disc)**(0.5)
+
+if(disc>0):
+    x1=((-b)+raiz)/(2*a)
+    x2=((-b)-raiz)/(2*a)
+    print('x.1= ',x1)
+    print('x.2= ',x2)
+elif(disc==0):
+    x1=((-b)+raiz)/(2*a)
+    x2=((-b)-raiz)/(2*a)
+    print('x..1= ',x1)
+    print('x..2= ',x2)
+else:
+    print('solucion imaginaria')
